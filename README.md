@@ -1,25 +1,24 @@
-# **Equipment Recommendation System**
+# Equipment Recommendation System
+## Overview
+The Equipment Recommendation System is a machine learning-based project designed to recommend appropriate equipment based on specific user requirements or operational conditions. This repository contains Jupyter notebooks for data generation, model training, prediction, and recommendation.
 
-## _Overview_
-
-The **Equipment Recommendation System** is a *machine learning-based project* designed to recommend appropriate equipment based on specific user requirements or operational conditions.  
-This repository contains **Jupyter notebooks** for data generation, model training, prediction, and recommendation.
-
----
-
-## **Features**
-
-- **Personalized Recommendations**: Suggests equipment tailored to user inputs such as task requirements, budget, or environmental conditions.  
-- **Machine Learning Models**: Utilizes deep learning models (*see `dl-project-new-recommendation.ipynb`*) for generating recommendations.  
-- **Data Generation**: Includes a notebook for generating or preprocessing equipment-related datasets.  
-- **Training and Prediction**: Provides a notebook for training models and making predictions.
-
----
-
-## **Installation**
-
-### Clone the Repository:
-
+## Project Structure
 ```bash
-git clone https://github.com/Preet28/equipment_recommendation.git
-cd equipment_recommendation
+equipment_recommendation/
+├── Data_Generation.ipynb               # Notebook for generating or preprocessing the dataset
+├── Training_And_Prediction.ipynb       # Notebook for training the model and making predictions
+├── dl-project-new-recommendation.ipynb # Notebook for generating recommendations
+└── README.md                           # Project documentation
+```
+
+## Dataset
+Initial Data_df: https://drive.google.com/file/d/1RkGLvKmrDl3R9rTu5jAgnNJxd1Al75N1/view?usp=sharing
+
+Data to Recommendation System: https://drive.google.com/file/d/1WDif74qlJvqozEqxME94Eo6SMSQFyfhG/view?usp=sharing
+
+## Contributors
+
+- Jinay Vora - 202201473  
+- Monson Reji Verghese - 202411039  
+- Avantika Agarwal - 202411024  
+- Preet Shah - 202411053
